@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { Background } from '../background/Background';
 import { Button } from '../button/Button';
 import { HeroOneButton } from '../hero/HeroOneButton';
+import { LogoLink } from '../hero/LogoADA';
 import { Section } from '../layout/Section';
 import { NavbarTwoColumns } from '../navigation/NavbarTwoColumns';
 import { Logo } from './Logo';
@@ -12,13 +13,17 @@ const Hero = () => (
     <Section yPadding="py-6">
       <NavbarTwoColumns logo={<Logo xl />}>
         <li>
-          <Link href="https://www.adha.org/sites/default/files/7222_Proper_Flossing_1.pdf">
-            <a>The Perfect Floss</a>
+          <Link href="https://www.adha.org/">
+            <a>
+              <LogoLink src="/assets/images/adha-logo.png" />
+            </a>
           </Link>
         </li>
         <li>
-          <Link href="https://www.ada.org/en/member-center/oral-health-topics/floss">
-            <a>More Flossing Resources</a>
+          <Link href="https://www.ada.org" passHref>
+            <a>
+              <LogoLink src="/assets/images/ada-logo.png" />
+            </a>
           </Link>
         </li>
       </NavbarTwoColumns>
