@@ -12,13 +12,13 @@ const Hero = () => (
     <Section yPadding="py-6">
       <NavbarTwoColumns logo={<Logo xl />}>
         <li>
-          <Link href="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template">
-            <a>GitHub</a>
+          <Link href="https://www.adha.org/sites/default/files/7222_Proper_Flossing_1.pdf">
+            <a>The Perfect Floss</a>
           </Link>
         </li>
         <li>
-          <Link href="/">
-            <a>Sign in</a>
+          <Link href="https://www.ada.org/en/member-center/oral-health-topics/floss">
+            <a>More Flossing Resources</a>
           </Link>
         </li>
       </NavbarTwoColumns>
@@ -28,15 +28,15 @@ const Hero = () => (
       <HeroOneButton
         title={
           <>
-            {'The modern landing page for\n'}
-            <span className="text-primary-500">React developer</span>
+            {'A dazzling smile starts with...\n'}
+            <span className="text-primary-500">The Perfect Floss</span>
           </>
         }
-        description="The easiest way to build React landing page in seconds."
+        description="Click below to learn how to perform the perfect floss!"
         button={
-          <Link href="https://creativedesignsguru.com/category/nextjs/">
+          <Link href="https://www.adha.org/sites/default/files/7222_Proper_Flossing_1.pdf">
             <a>
-              <Button xl>Download Your Free Theme</Button>
+              <Button xl>The Pefect Floss</Button>
             </a>
           </Link>
         }
