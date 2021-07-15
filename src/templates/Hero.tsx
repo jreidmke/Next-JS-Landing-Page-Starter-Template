@@ -35,7 +35,7 @@ const Hero = () => (
         title={
           <>
             {'A dazzling smile starts with...\n'}
-            <span className="text-primary-500">The Perfect Floss</span>
+            <span className="text-primary-600">The Perfect Floss</span>
           </>
         }
         description="Click below to learn how to perform the perfect floss!"
@@ -48,7 +48,6 @@ const Hero = () => (
         }
       />
     </Section>
-    {/* // </Background> */}
   </div>
 );
 
