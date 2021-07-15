@@ -44,6 +44,11 @@ module.exports = {
         hero: '4.5rem',
       },
     },
+    // eslint-disable-next-line no-unused-vars
+    backgroundImage: (theme) => ({
+      'hero-pattern': "url('/assets/images/smile-floss-o.png')",
+      'footer-texture': "url('/img/footer-texture.png')",
+    }),
   },
   variants: {},
   plugins: [],
